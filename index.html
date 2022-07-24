@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <title>Hand Gesture Recognition</title>
+</head>
+
+<body>
+    <center>
+        <div class="container">
+            <div class="btn btn-primary">
+                <label>Gesture Web App</label>
+                <br>
+                <label>&#128077;&#9996;&#128078;&#9997;&#128071;</label>
+            </div>
+            <br><br><br><br><br>
+            <label style="color: blue;"><b>Take a selfie of a gesture to know about its meaning</b></label>
+            <br>
+            <label  class="btn btn-success">Prediction</label>
+            <label style="float: left;" class="btn btn-success">Webcam view - </label>
+            <div style="float: left;" id="webcam"></div>
+            <label style="float: right;" class="btn btn-success">Result -  </label>
+            <div style="float: right;" id="result"></div>
+            <br><br><br>
+            <button style="float: left;" class="btn btn-danger">Take Snapshot</button>
+            <button style="float: right;" class="btn btn-danger">Predict emoji</button>
+            
+        </div>
+    </center>
+
+</body>
+
+</html>
